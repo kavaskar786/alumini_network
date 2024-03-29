@@ -1,0 +1,245 @@
+/* Overall Page Styles */
+.login-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+   background-image: url('../images/LgRbg.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+/* Login Container Styles */
+.login-container {
+  max-width: 350px; /* Set a maximum width for larger screens */
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  background: transparent;
+  backdrop-filter: blur(9px);
+
+
+}
+
+/* Header Styles */
+.login-container h2 {
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.login-container form {
+  width: 100%;
+}
+
+/* Input Styles */
+.login-container label {
+  margin-bottom: 5px;
+  color: black;
+}
+
+/* .login-container input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+} */
+#Loginpassword{
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+}
+#LoginusernameOrEmail{
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+}
+
+
+.login-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button Styles */
+.login-container button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+}
+
+.login-container button:hover {
+  background-color: #217dbb;
+}
+
+/* Checkbox Styles */
+.login-container .remember-me-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Adjust spacing for smaller screens */
+  width: 100%;
+}
+
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Additional Link Styles */
+.login-container p {
+  text-align: center;
+  margin-top: 15px;
+  color: black;
+}
+
+.login-container p a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.login-container p a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Custom Fonts */
+body {
+  font-family: 'YourFont', sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    max-width: 100%;
+  }
+}
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Add this to your existing CSS or create a new CSS file for popups */
+
+.scs_pp {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+
+.scs_p {
+  margin: 0;
+  font-size: 18px;
+  color: #4CAF50; 
+}
+
+.scs_btn {
+  background-color: #4CAF50;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.scs_btn:hover {
+  background-color: #45a049; 
+}
+
+/* #rememberMe {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+} */
+/* Icon Styles */
+.login-container div {
+  position: relative;
+}
+
+.login-container .icon {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 280px; /* Adjust the left position as needed */
+  color:black;
+  font-size: 18px;
+  pointer-events: none; /* Ensure the icon doesn't interfere with input events */
+}
+/* Checkbox Styles
+.login-container .loginrememberme {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 15px; */
+  /* width: 25%;
+  gap: 5px; /* Reduce the gap between checkbox and input */
+/* } */ 
+
+/* Remember Me Label Styles */
+/* .login-container .loginrememberme {
+  margin: 2 2 2 2px;
+  color:black;
+} */ 
+/* Checkbox Container Styles */
+.login-container .loginrememberme {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;  /* Adjust spacing as needed */
+   /* width: 100%;     Ensure it spans the entire width  */
+}
+
+/* Remember Me Label Styles */
+.login-container .loginrememberme label {
+  margin-left: 5px; /* Adjust spacing between checkbox and label */
+  color: black;
+}
+
+#password{
+  color:black;
+}

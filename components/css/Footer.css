@@ -1,0 +1,16 @@
+/* Footer.css */
+
+.footer {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      margin-top: 0px;
+
+      padding-top: 1em;
+      display: flex;
+      justify-content: center; /* Initially centered horizontally */
+      align-items: center;
+
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      border-radius: 15px; /* Default border radius */
+  }

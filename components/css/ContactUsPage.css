@@ -1,0 +1,173 @@
+/* ContactUsPage.css */
+/* ContactUsPage.css */
+
+/* ContactUsPage.css */
+*{
+  transition: 1.5s;
+}
+.background-container {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/contactus_bg_img.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Your Preferred Font', sans-serif;
+  overflow: hidden; /* Add overflow to hide any potential content overflow */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+.root-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(248, 248, 248, 0.5); /* Adjust the alpha value for transparency */
+  border-radius: 10px;
+  position: relative;
+  background: transparent; 
+  backdrop-filter: blur(3px);
+  margin-top: 5em;
+  
+  /* Add position relative to ensure child elements are positioned relative to this container */
+}
+
+/* Rest of your existing styles */
+
+.contact-header {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+
+
+.contact-details {
+  margin-bottom: 25px;
+  color: #666;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+  color: #555;
+}
+#contactname{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#contactemail{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#contactgraduationYear{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#contactmajor{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#contactmessage{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* .contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3498db;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #999;
+}
+
+.contact-form button {
+  padding: 14px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensure the button takes full width within the container */
+}
+
+.contact-form button:hover {
+  background-color: #217dbb;
+}
+
+.success-message {
+  background-color: #eaf7ea;
+  border: 1px solid #c2e5c2;
+  color: #4cae4c;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.suc_cont{
+  height: 50vh;
+}
+
+/* Enhancements based on .js classNames */
+.contact-container .contact-form button {
+  margin-top: 10px; /* Adjust spacing between the form elements and the button */
+}
+
+
+footer {
+  background-color: #333;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
